@@ -69,6 +69,7 @@
 	position: absolute;
 	right: 4px;
 	top: -29px;
+	z-index: -1;
 }
 
 .header__navbar-user-menu::after {
@@ -247,6 +248,7 @@
 	position: absolute;
 	right: 4px;
 	top: -29px;
+	z-index: -1;
 }
 
 .header__notify::after {
@@ -675,6 +677,7 @@
 	border-width: 16px 20px;
 	border-style: solid;
 	border-color: transparent transparent var(--white-color) transparent;
+	z-index: -1;
 }
 
 .header__cart-list--no-cart {
